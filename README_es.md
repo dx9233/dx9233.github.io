@@ -1,8 +1,8 @@
-- [Spanish Version](./README_es.md)
+- [English Version](./README.md)
 
-## About
+## Sobre
 
-Freelancer & Software Developer
+Freelancer y Desarrollador De Software
 
 ## Tech Stack
 
@@ -21,7 +21,7 @@ Freelancer & Software Developer
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" width="40" height="40" alt="Composer" />
 </p>
 
-## Projects
+## Proyectos
 
 | Project                  | Description    | Stack            | Link                                                   |
 | ------------------------ | -------------- | ---------------- | ------------------------------------------------------ |
