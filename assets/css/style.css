@@ -26,7 +26,7 @@ a {
   color: black;
 }
 
-#language-switcher {
+.language-switcher {
   padding: 6px 10px;
   border-radius: 6px;
   border: 1px solid #ccc;
