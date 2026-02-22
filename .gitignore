@@ -1,0 +1,17 @@
+# Obsidian
+
+# Obsidian system folder (index, plugins, settings)
+.obsidian/
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.tmp
+*.bak
+
+# Cache and temporary files
+.cache/
+.cache-obsidian/
