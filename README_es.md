@@ -20,10 +20,3 @@ Freelancer y Desarrollador De Software
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" width="40" height="40" alt="Vite" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" width="40" height="40" alt="Composer" />
 </p>
-
-## Proyectos
-
-| Proyect                      | Descripción                       | Pila             | Enlace                                                     |
-| ---------------------------- | --------------------------------- | ---------------- | ---------------------------------------------------------- |
-| **web-projects**             | JS-monorepo                       | React, Next, Vue | [Link](https://github.com/dx9233/web-projects)             |
-| **smarthome-landing-django** | Aplicación Smart Home para Django | Python, Django   | [Link](https://github.com/dx9233/smarthome-landing-django) |

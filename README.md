@@ -20,10 +20,3 @@ Freelancer & Software Developer
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" width="40" height="40" alt="Vite" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" width="40" height="40" alt="Composer" />
 </p>
-
-## Projects
-
-| Project                      | Description           | Stack            | Link                                                       |
-| ---------------------------- | --------------------- | ---------------- | ---------------------------------------------------------- |
-| **web-projects**             | JS-monorepo           | React, Next, Vue | [Link](https://github.com/dx9233/web-projects)             |
-| **smarthome-landing-django** | Smart Home Django App | Python, Django   | [Link](https://github.com/dx9233/smarthome-landing-django) |
