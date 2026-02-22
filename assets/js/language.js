@@ -1,19 +1,20 @@
+const switcher = document.getElementById("language-switcher");
 
-  const switcher = document.getElementById("language-switcher");
-
-  // Определяем текущий язык из URL
+if (switcher) {
   const pathParts = window.location.pathname.split("/");
   const currentLang = pathParts[1];
 
-  if (currentLang) {
+  if (["ru", "en", "es"].includes(currentLang)) {
     switcher.value = currentLang;
   }
 
   switcher.addEventListener("change", function () {
     const newLang = this.value;
 
-    // Получаем текущую страницу без языка
-    const page = pathParts.slice(2).join("/") || "index.html";
+    const page = pathParts.slice(2).join("/") || "";
 
-    window.location.href = `/${newLang}/${page}`;
+    const newUrl = `${window.location.origin}/${newLang}/${page}`;
+
+    window.location.href = newUrl;
   });
+}
