@@ -100,10 +100,13 @@
   Language:
 </label>--> 
 
-<select id="language-switcher">
-  <option value="ru">Ру</option>
-  <option value="en">En</option>
-  <option value="es">Es</option>
+<select id="language-switcher"
+        onchange="window.location.href=this.value">
+
+  <option value="/ru/">Ру</option>
+  <option value="/en/">En</option>
+  <option value="/es/">Es</option>
+
 </select>
           </div>
         </div>
@@ -421,4 +424,4 @@
 </html>
 
 <script src="../assets/js/script.js" defer></script>
-<script src="../assets/js/language.js"></script>
+<!-- <script src="../assets/js/language.js"></script> -->
