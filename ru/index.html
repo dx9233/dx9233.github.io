@@ -84,6 +84,7 @@
           </svg>
         </button>
 
+
         <div class="logo">
           <a href="/">Верстка и разработка</a>
           <div class="logo-github">
@@ -94,6 +95,11 @@
             >
               <i class="fa-brands fa-github"></i>
             </a>
+            <select id="language-switcher">
+  <option value="ru">Ру</option>
+  <option value="en">En</option>
+  <option value="es">Es</option>
+</select>
           </div>
         </div>
 
@@ -104,13 +110,13 @@
 
         <div class="overlay" id="overlay"></div>
 
-        <script src="./assets/js/burgermenu.js" defer></script>
+        <script src="../assets/js/burgermenu.js" defer></script>
       </div>
     </header>
 
     <section class="projects">
       <div class="container">
-        <h2 class="projects-title">Projects</h2>
+        <h2 class="projects-title">Проекты</h2>
 
         <!-- <div class="filter-buttons">
       <button class="filter-btn active" data-filter="all">Все</button>
@@ -203,7 +209,7 @@
 
           <div class="project-card" data-category="{project.category}">
             <div class="project-image">
-              <img src="./screenshots/mountinewalking.jpg" alt="Blitz State" />
+              <img src="../screenshots/mountinewalking.jpg" alt="Blitz State" />
             </div>
             <div class="project-content">
               <h3>Mountine Walking</h3>
@@ -219,7 +225,7 @@
 
           <div class="project-card" data-category="{project.category}">
             <div class="project-image">
-              <img src="./screenshots/musicartist.jpg" alt="Blitz State" />
+              <img src="../screenshots/musicartist.jpg" alt="Blitz State" />
             </div>
             <div class="project-content">
               <h3>Music Artist</h3>
@@ -369,6 +375,7 @@
         </div>
       </div>
     </section>
+</body>
   </body>
   <footer class="footer">
     <div class="container">
@@ -408,4 +415,5 @@
   </footer>
 </html>
 
-<script src="./assets/js/script.js" defer></script>
+<script src="../assets/js/script.js" defer></script>
+<script src="../assets/js/language.js"></script>
