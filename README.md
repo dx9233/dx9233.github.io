@@ -26,5 +26,4 @@ Freelancer & Software Developer
 | Project                      | Description           | Stack            | Link                                                       |
 | ---------------------------- | --------------------- | ---------------- | ---------------------------------------------------------- |
 | **web-projects**             | JS-monorepo           | React, Next, Vue | [Link](https://github.com/dx9233/web-projects)             |
-| **html-coding-projects**     | HTML-projects         | HTML, CSS, JS    | [Link](https://github.com/dx9233/html-coding-projects)     |
 | **smarthome-landing-django** | Smart Home Django App | Python, Django   | [Link](https://github.com/dx9233/smarthome-landing-django) |
