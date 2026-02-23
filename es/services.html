@@ -1,12 +1,9 @@
-<html lang="ru">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dmitry Lean | Разработка веб-сайтов, приложений и ботов</title>
-    <meta
-      name="description"
-      content="Разработка веб-сайтов, приложений и ботов. React, Next, Vue, Astro, Svelte, Python, Django"
-    />
+    <title>Dmitry Lean | Desarrollo de sitios web, aplicaciones y bots</title>
+    <meta name="description" content="Desarrollo de sitios web, aplicaciones y bots. React, Next, Vue, Astro, Svelte, Python, Django" />
 
     <!-- Global CSS -->
     <link rel="stylesheet" href="../assets/css/style.css" />
@@ -113,9 +110,9 @@
         </div>
 
         <nav class="nav" id="menu">
-          <a href="/">Главная</a>
-          <a href="./services.html">Услуги</a>
-          <a href="./contacts.html">Контакты</a>
+          <a href="/">Casa</a>
+          <a href="./services.html">Servicios</a>
+          <a href="./contacts.html">Contactos</a>
         </nav>
 
         <div class="overlay" id="overlay"></div>
@@ -123,46 +120,36 @@
         <script src="../assets/js/burgermenu.js" defer></script>
       </div>
     </header>
-    <section class="contact-section">
+    <section class="services">
       <div class="container">
-        <div class="contact-grid">
-          <div class="contact-form">
-            <h2>Написать мне</h2>
-
-            <form>
-              <label>Имя</label>
-              <input type="text" placeholder="Напишите ваше имя" required />
-
-              <label>EMail</label>
-              <input type="email" placeholder="Ваш EMail" required />
-
-              <label>Сообщение</label>
-              <textarea
-                placeholder="Опишите свою проблему или задайте ваш вопрос"
-                required
-              ></textarea>
-
-              <button type="submit" class="btn-submit">
-                Отправить Сообщение →
-              </button>
-            </form>
-          </div>
-
-          <div class="contact-info">
-            <div class="info-title">
-              <h2>Информация</h2>
+        <h2 class="services-title">Servicios</h2>
+        <p class="red-text">
+          ¡Atención! ¡Solo trabajo con un anticipo del 30 % del importe del proyecto! Además,
+          no realizo trabajos de prueba: puede ver todos mis trabajos en
+          mi sitio web y en GitHub.
+        </p>
+        <h3>Lorem ipsum</h3>
+        <div class="services-content">
+          <div class="services-list">
+            <div class="service-item">
+              <div class="service-text">
+                <h3>Lorem ipsum</h3>
+                <p>+ Lorem ipsum</p>
+                <p>+ Lorem ipsum</p>
+              </div>
+              <div class="service-price">Lorem ipsum</div>
             </div>
-            <div class="info-text">
-              <p>
-                <strong class="red-text">Email:</strong>
-                dmitrywork92@gmail.com
-              </p>
-            </div>
-            <div class="info-text">
-              <p>
-                У меня нет аккаунтов в соцсетях, я не хочу публичности. Поэтому,
-                связаться со мной вы можете только благодаря EMail или в TG.
-              </p>
+
+             <h3>Lorem ipsum</h3>
+        <div class="services-content">
+          <div class="services-list">
+            <div class="service-item">
+              <div class="service-text">
+                <h3>Lorem ipsum</h3>
+                <p>+ Lorem ipsum</p>
+                <p>+ Lorem ipsum</p>
+              </div>
+              <div class="service-price">Lorem ipsum</div>
             </div>
           </div>
         </div>
@@ -171,7 +158,7 @@
   </body>
   <footer class="footer">
     <div class="container">
-      <h2>Follow Me!</h2>
+      <h2>¡Síganme!</h2>
       <div class="socials">
         <!--  <a
           href="https://example.com/"
@@ -209,3 +196,61 @@
 
 <script src="../assets/js/script.js" defer></script>
 <!-- <script src="../assets/js/language.js"></script> -->
+
+<style>
+  .red-text {
+    color: rgb(192, 57, 57);
+    font-size: 18px;
+  }
+
+  .services {
+    color: black;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .services-title {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+
+  .services-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .services-list {
+    flex: 1 1 50%;
+  }
+
+  .service-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .service-text h3 {
+    color: black;
+    font-size: 27px;
+    margin: 0;
+  }
+
+  .service-text p {
+    color: black;
+    font-size: 18px;
+    margin: 4px 0 0;
+    opacity: 0.8;
+  }
+
+  .service-price {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    white-space: nowrap;
+  }
+</style>
