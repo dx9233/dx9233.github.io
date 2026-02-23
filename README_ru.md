@@ -1,8 +1,8 @@
 # dx9233.github.io
 
--[Spanish](./README_es.md) -[Russian](./README_ru.md)
+-[Spanish](./README_es.md) -[English](./README.md)
 
-My personal portfolio and collection of layout projects, as well as some of my work transferred to Wordpress.
+Личное портфолио и коллекция моих проектов по верстке, также часть работ перенесенных на Wordpress.
 
 ---
 
