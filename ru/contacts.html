@@ -120,49 +120,46 @@
         <script src="../assets/js/burgermenu.js" defer></script>
       </div>
     </header>
-    <section class="services">
+    <section class="contact-section">
       <div class="container">
-        <h2 class="services-title">Услуги</h2>
-        <p class="red-text">
-          Внимание! Я работаю только по предоплате в 30% от суммы проекта! Также
-          я не выполняю тестовые задания - все мои работы в можете посмотреть на
-          моем сайте и на GitHub.
-        </p>
-        <p>
-          Я не работаю со следующими тематиками - СВО, религия, милитаризм,
-          азартные игры.
-        </p>
-        <h3>Верстка</h3>
-        <div class="services-content">
-          <div class="services-list">
-            <div class="service-item">
-              <div class="service-text">
-                <h3>Лендинг</h3>
-                <p>+ Цена за 1 страницу</p>
-                <p>+ до 3 дней</p>
-              </div>
-              <div class="service-price">от 1000р</div>
-            </div>
+        <div class="contact-grid">
+          <div class="contact-form">
+            <h2>Написать мне</h2>
 
-            <div class="service-item">
-              <div class="service-text">
-                <h3>Многостраничный сайт</h3>
-                <p>+ от 3 страниц</p>
-                <p>+ от 3 дней, зависит от сложности проекта</p>
-              </div>
-              <div class="service-price">от 5000р</div>
-            </div>
+            <form>
+              <label>Имя</label>
+              <input type="text" placeholder="Напишите ваше имя" required />
 
-             <h3>Разработка приложений на React, Next, Vue, Svelte, Astro</h3>
-        <div class="services-content">
-          <div class="services-list">
-            <div class="service-item">
-              <div class="service-text">
-                <h3>SPA, SSR, SSG итд</h3>
-                <p>+ Цена за 1 час работы</p>
-                <p>+ Рассчитывается индивидуально</p>
-              </div>
-              <div class="service-price">от 1500р/час</div>
+              <label>EMail</label>
+              <input type="email" placeholder="Ваш EMail" required />
+
+              <label>Сообщение</label>
+              <textarea
+                placeholder="Опишите свою проблему или задайте ваш вопрос"
+                required
+              ></textarea>
+
+              <button type="submit" class="btn-submit">
+                Отправить Сообщение →
+              </button>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <div class="info-title">
+              <h2>Информация</h2>
+            </div>
+            <div class="info-text">
+              <p>
+                <strong class="red-text">Email:</strong>
+                dmitrywork92@gmail.com
+              </p>
+            </div>
+            <div class="info-text">
+              <p>
+                У меня нет аккаунтов в соцсетях, я не хочу публичности. Поэтому,
+                связаться со мной вы можете только благодаря EMail или в TG.
+              </p>
             </div>
           </div>
         </div>
@@ -209,61 +206,3 @@
 
 <script src="../assets/js/script.js" defer></script>
 <!-- <script src="../assets/js/language.js"></script> -->
-
-<style>
-  .red-text {
-    color: rgb(192, 57, 57);
-    font-size: 18px;
-  }
-
-  .services {
-    color: black;
-    padding: 60px 20px;
-    text-align: center;
-  }
-
-  .services-title {
-    font-size: 48px;
-    margin-bottom: 40px;
-  }
-
-  .services-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .services-list {
-    flex: 1 1 50%;
-  }
-
-  .service-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 15px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  }
-
-  .service-text h3 {
-    color: black;
-    font-size: 27px;
-    margin: 0;
-  }
-
-  .service-text p {
-    color: black;
-    font-size: 18px;
-    margin: 4px 0 0;
-    opacity: 0.8;
-  }
-
-  .service-price {
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    white-space: nowrap;
-  }
-</style>
