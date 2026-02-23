@@ -13,3 +13,12 @@ document.querySelectorAll(".accordion-header").forEach((button) => {
     content.classList.toggle("open");
   });
 });
+
+// Success Form
+
+document
+  .querySelector(".contact-form")
+  .addEventListener("submit", function (e) {
+    e.preventDefault();
+    document.querySelector(".contact__success").style.display = "block";
+  });
