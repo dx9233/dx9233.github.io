@@ -823,3 +823,205 @@ p {
     grid-template-columns: 1fr;
   }
 }
+
+/* Support */
+
+.support-hero {
+  padding: 5rem 0;
+  background: url("https://wallpaperaccess.com/full/2087100.jpg") center/cover no-repeat;
+  position: relative;
+  color: white;
+}
+
+.support-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.support-hero .container {
+  position: relative;
+  z-index: 2;
+  height: 280px;
+}
+
+.support-hero h1 {
+  font-size: 64px;
+}
+
+.faq-section {
+  padding: 6rem 0;
+  background: #f9fbfd;
+}
+
+.section-title {
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 54px;
+  font-style: bold;
+  color: #333;
+}
+
+.faq {
+  max-width: 900px;
+  margin: 0 auto 5rem;
+}
+
+.faq-item {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  background: white;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 1.2rem;
+  background: white;
+  border: none;
+  text-align: left;
+  font-size: 0.95rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.faq-answer {
+  display: none;
+  padding: 1.2rem;
+  background: #fafafa;
+  font-size: 0.9rem;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+.faq-cta {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.faq-cta__content h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.faq-cta__content span {
+  color: #4fa3e3;
+}
+
+.faq-cta__content p {
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+.faq-cta__image img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.btn {
+  padding: 0.9rem 1.8rem;
+  background: linear-gradient(90deg, #4fa3e3, #3a8fd6);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .faq-cta {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cta-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 404 */
+
+.error-page {
+  min-height: 100vh;
+  background: url("https://c4.wallpaperflare.com/wallpaper/586/899/689/girl-photo-photoshop-art-girl-hd-wallpaper-preview.jpg") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Like maket 
+
+.error-code {
+  font-size: 10rem;
+  font-weight: 900;
+  letter-spacing: 10px;
+  margin-bottom: 2rem;
+
+  background: url("games-bg.jpg") center/cover no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.error-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.error-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.error-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.error-content p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.error-code {
+  font-size: 10rem;
+  font-weight: 900;
+  letter-spacing: 10px;
+  margin-bottom: 2rem;
+  color: #4fa3e3;
+}
+
+.btn {
+  padding: 0.9rem 2rem;
+  background: linear-gradient(90deg, #4fa3e3, #3a8fd6);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .error-code {
+    font-size: 6rem;
+  }
+
+  .error-content h1 {
+    font-size: 1.5rem;
+  }
+}
