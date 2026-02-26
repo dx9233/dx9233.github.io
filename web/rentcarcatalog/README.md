@@ -1,14 +1,8 @@
-# 🎨 [Theme Name]
+# Car Eent | Wordpress Theme
 
-Custom WordPress theme based on my HTML/CSS layout.  
-Fully responsive, clean code, ready to use in `wp-content/themes/`.
+![Car Rent](screenshot.png)
 
----
-
-## 🚀 Live Demo
-
-Based on this layout:  
-🔗 [Demo on Netlify](https://yourdemo.netlify.app)
+- [Design](https://www.figma.com/design/ngf3Nl57qBM1QvdtfCfWeU/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D1%81%D0%B0%D0%B9%D1%82---%D0%90%D1%80%D0%B5%D0%BD%D0%B4%D0%B0-%D0%B0%D0%B2%D1%82%D0%BE?node-id=44-14919&t=B037n3IsdJ3Yc7GW-1)
 
 ---
 
