@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
     <header>
@@ -60,7 +60,7 @@
               rel="noopener"
             >
               <img
-                src="./assets/svg/instagram.svg"
+                src="../assets/svg/instagram.svg"
                 alt="Instagram"
                 width="24"
                 height="24"
@@ -70,14 +70,14 @@
           </div>
 
           <div class="menu-left" id="menu-left">
-            <a href="./index.html">Home</a>
+            <a href="../index.html">Home</a>
             <a href="./masters.html">Masters</a>
             <a href="#">Comsmetics</a>
           </div>
 
           <div class="navbar-center">
             <img
-              src="./assets/svg/omega-sign-svgrepo-com 1.svg"
+              src="../assets/svg/omega-sign-svgrepo-com 1.svg"
               alt="logo"
               class="logo-symbol"
             />
@@ -95,25 +95,56 @@
     </header>
 
     <main class="site-main">
-      <div class="container">
-        <!-- Masters -->
-        <div class="masters">
-          <div class="masters-title">
-            <h2>Our Masters</h2>
+      <section class="masters">
+        <h2 class="masters__title">Our Masters</h2>
+
+        <div class="masters__grid">
+          <div class="master-card">
+            <div class="master-card__img">
+              <img
+                src="https://i.pinimg.com/736x/a5/93/25/a59325624066bebd0598d179f7da7d8b.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="master-card__info">
+              <h3>Name</h3>
+              <p>Makeup artist</p>
+            </div>
           </div>
 
-          <!-- Visual Portfolio Shortcode -->
-          <div class="master-grid">
-            <?php echo do_shortcode('[visual_portfolio id="109"]'); ?>
+          <div class="master-card">
+            <div class="master-card__img">
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/771/70/487/caitlin-mcswain-brunette-face-portrait-wallpaper-preview.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="master-card__info">
+              <h3>Name</h3>
+              <p>Makeup artist</p>
+            </div>
+          </div>
+
+          <div class="master-card">
+            <div class="master-card__img">
+              <img src="https://wallpapercave.com/wp/wp13265144.jpg" alt="" />
+            </div>
+
+            <div class="master-card__info">
+              <h3>Name</h3>
+              <p>Makeup artist</p>
+            </div>
           </div>
         </div>
-
-        <!-- Price -->
-        <div class="services">
+      </section>
+      <section class="services">
+        <div class="container">
           <h2 class="services-title">Service Prices</h2>
           <div class="services-content">
             <div class="services-image">
-              <img src="./assets/img/woman.png" alt="Prices" />
+              <img src="../assets/img/woman.png" alt="Prices" />
             </div>
 
             <div class="services-list">
@@ -143,7 +174,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer class="site-footer">
       <div class="footer-top">
@@ -172,7 +203,7 @@
           <h3>We are on Instagram</h3>
           <a href="#" class="social-link" target="_blank">
             <img
-              src="./assets/svg/instagram.svg"
+              src="../assets/svg/instagram.svg"
               alt="Instagram"
               color="white"
             />

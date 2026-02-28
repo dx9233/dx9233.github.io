@@ -71,7 +71,7 @@
 
           <div class="menu-left" id="menu-left">
             <a href="./index.html">Home</a>
-            <a href="./masters.html">Masters</a>
+            <a href="./pages/masters.html">Masters</a>
             <a href="#">Comsmetics</a>
           </div>
 
@@ -86,7 +86,7 @@
           <div class="menu-right" id="menu-right">
             <a href="#">Action</a>
             <a href="#">Review</a>
-            <a href="./contact.html">Contacts</a>
+            <a href="./pages/contact.html">Contacts</a>
           </div>
         </nav>
 
@@ -107,18 +107,49 @@
   </div>
 </section>
 
-       <div class="quote-block">
+       <section class="quote-block">
       <img src="./assets/svg/frame.svg" class="quote-icon" alt="" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu nibh vitae amet. Ipsum, pharetra donec ornare velit. Id at quisque accumsan risus ac ipsum ut. Sit elit, facilisi proin non malesuada sociis tristique. Viverra augue lorem ut quisque</br> quam tortor, malesuada iaculis.
         Et elementum at nulla venenatis, faucibus integer. Auctor neque eros, viverra rutrum. Fames ultrices condimentum tortor nec penatibus. Velit imperdiet</br> sapien fringilla vestibulum sit fames.
       </p>
+      </section>
+ 
+   <section class="services">
+  <div class="services__grid">
+
+    <div class="service-card">
+      <img src="./assets/img/services_1.png" alt="">
+      <p>Hairdressing services</p>
     </div>
 
-    <!-- Visual Portfolio Shortcode -->
-    <?php echo do_shortcode('[visual_portfolio id="67"]');
-    ?>
+    <div class="service-card">
+      <img src="./assets/img/services_2.png" alt="">
+      <p>Manicure</p>
+    </div>
+
+    <div class="service-card">
+      <img src="./assets/img/services_3.png" alt="">
+      <p>Pedicure</p>
+    </div>
+
+    <div class="service-card">
+      <img src="./assets/img/services_4.png" alt="">
+      <p>Cosmetology</p>
+    </div>
+
+    <div class="service-card">
+      <img src="./assets/img/services_5.png" alt="">
+      <p>Aesthetician by body</p>
+    </div>
+
+    <div class="service-card">
+      <img src="./assets/img/services_6.png" alt="">
+      <p>Makeup</p>
+    </div>
+
   </div>
+</section>
 
   <!-- Brands -->
   <section class="brands">
@@ -131,6 +162,56 @@
       </div>
     </div>
   </section>
+
+  <section class="works">
+  <h2 class="works__title">Our Works</h2>
+
+  <div class="works__filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="hair">Hairdressing services</button>
+    <button class="filter-btn" data-filter="makeup">Makeup</button>
+    <button class="filter-btn" data-filter="nails">Manicure</button>
+    <button class="filter-btn" data-filter="brows">Eyebrows</button>
+  </div>
+
+  <div class="works__grid">
+    <div class="work-item" data-category="brows">
+      <img src="./assets/img/work-1.png" alt="">
+    </div>
+
+    <div class="work-item" data-category="makeup">
+      <img src="./assets/img/work-2.png" alt="">
+    </div>
+
+    <div class="work-item" data-category="nails">
+      <img src="./assets/img/work-3.png" alt="">
+    </div>
+
+    <div class="work-item" data-category="makeup">
+      <img src="./assets/img/work-4.png" alt="">
+    </div>
+
+    <div class="work-item" data-category="hair">
+      <img src="./assets/img/work-5.png" alt="">
+    </div>
+
+    <div class="work-item" data-category="makeup">
+      <img src="./assets/img/work-6.png" alt="">
+    </div>
+
+    <div class="work-item" data-category="nails">
+      <img src="./assets/img/work-7.png" alt="">
+    </div>
+
+    <div class="work-item" data-category="makeup">
+      <img src="./assets/img/work-8.png" alt="">
+    </div>
+
+    <div class="work-item" data-category="makeup">
+      <img src="./assets/img/work-9.png" alt="">
+    </div>
+  </div>
+</section>
     </main>
     <footer class="site-footer">
       <div class="footer-top">
@@ -205,6 +286,6 @@
         });
       });
     </script>
-
+ <script src="script.js"></script>
   </body>
 </html>
