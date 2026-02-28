@@ -1,7 +1,5 @@
 # dx9233.github.io
 
--[Spanish](./README_es.md) -[Russian](./README_ru.md)
-
 My personal portfolio and collection of layout projects, as well as some of my work transferred to Wordpress.
 
 ---
@@ -20,3 +18,21 @@ My personal portfolio and collection of layout projects, as well as some of my w
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" height="40" alt="PHP" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySql" />
 </p>
+
+## Project Structure
+
+```
+dx9233.github.io/
+  app/ # PHP fullstack apps
+  assets/
+    css/
+    js/
+  en/ # English locale
+  es/ # Spanish locale
+  ru/ # Russian locale
+  screenshots/
+  scripts/ # JS-scripts (darktheme, multilang, lang block etc)
+  templates/ # Started kits for projects
+  web/ # HTML/CSS/JS projects
+  wordpress/ # Themes and source code for Wordpress
+```

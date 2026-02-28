@@ -1,4 +1,4 @@
-# Smart Home Landing | Django App
+# Smart Home Landing
 
 ![Smart Home](screenshot.jpg)
 

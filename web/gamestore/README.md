@@ -1,3 +1,3 @@
 # Game Store
 
-![Game Storey](screenshot.png)
+![Game Storey](../../screenshots/gamestore.jpg)
