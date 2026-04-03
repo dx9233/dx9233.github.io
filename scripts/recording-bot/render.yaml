@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: recording-bot
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
-    envVars:
-      - key: TELEGRAM_TOKEN
-        sync: false
